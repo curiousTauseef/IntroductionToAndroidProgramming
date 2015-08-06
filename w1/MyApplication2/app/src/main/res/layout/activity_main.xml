@@ -12,12 +12,45 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/text2" />
-    <Button android:id="@+id/NewButton"
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20px"
+        android:layout_gravity="center_horizontal">
+
+    <Button android:id="@+id/activity2button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity2" />
+
+    </LinearLayout>
+
+    <Button android:id="@+id/activity3button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/textButton" />
-    <Button android:id="@+id/NewButton2"
+        android:text="@string/activity3button" />
+
+    <Button android:id="@+id/activity4button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/textButton2" />
+        android:text="@string/activity4button" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint1"
+        android:inputType="text"
+        android:imeOptions="actionSend" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint2"
+        android:inputType="text"
+        android:imeOptions="actionSend" />
+
 </LinearLayout>

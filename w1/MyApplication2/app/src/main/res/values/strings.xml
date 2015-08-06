@@ -6,7 +6,12 @@
     <string name="textButton2">Activity3</string>
     <string name="textButtonForActivity4">Activity4</string>
     <string name="hello2">Second activity</string>
+    <string name="activity2">Open activity 2</string>
     <string name="activity3">You are at 3rd activity</string>
     <string name="activity4">You are at 4th activity</string>
     <string name="activity4_1">And this is how you roll</string>
+    <string name="hint1">type text to be displayed in activity 3</string>
+    <string name="hint2">type text to be displayed in activity 4</string>
+    <string name="activity3button">send to activity 3</string>
+    <string name="activity4button">send to activity 4</string>
 </resources>
