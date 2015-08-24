@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+	 android:id="@+id/et_moviename"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:text="@string/moviename"
+	 android:layout_alignParentTop="true"
+	 android:layout_alignParentLeft="true"
+	/>
+	
+	 <EditText
+	 android:id="@+id/et_movieYear"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:hint="@string/year_released"
+	 android:layout_below="@+id/et_moviename"
+	 android:inputType="number" />
+	 
+	 <EditText
+	 android:id="@+id/et_movieGenre"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	  android:layout_below="@+id/et_movieYear"
+	 android:hint="@string/movie_Genre" />
+	 
+	 <EditText
+	 android:id="@+id/et_moviePlot"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	  android:layout_below="@+id/et_movieGenre"
+	 android:hint="@string/movie_plot" />
+	 
+	 
+	 <EditText
+	 android:id="@+id/et_movieDirector"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	  android:layout_below="@+id/et_moviePlot"
+	 android:hint="@string/movie_Director" />
+
+	 <Button
+	     android:id="@+id/clear_button"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignBaseline="@+id/done_button"
+	     android:layout_alignBottom="@+id/done_button"
+	     android:layout_marginLeft="66dp"
+	     android:layout_toRightOf="@+id/done_button"
+	     android:text="@string/clear" />
+
+	 <Button
+	     android:id="@+id/done_button"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentLeft="true"
+	     android:layout_below="@+id/et_movieDirector"
+	     android:layout_marginLeft="26dp"
+	     android:layout_marginTop="48dp"
+	     android:text="@string/done_movie" />
+    
+</RelativeLayout>

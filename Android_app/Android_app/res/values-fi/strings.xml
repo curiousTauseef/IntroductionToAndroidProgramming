@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HyeSoo_Park</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="hello_world">Moi Maailma!</string>
+    <string name="addmovie">Paina Minua</string>
+    <string name="searchmovie">Haku Elokuva</string>
+    <string name="savedmovie">tallennettu Elokuva</string>
+    <string name="exit">Exit</string>
+</resources>

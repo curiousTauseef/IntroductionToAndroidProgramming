@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HyeSoo_Park</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="addmovie">Add Movie</string>
+    <string name="searchmovie">Search Movie</string>
+    <string name="savedmovie">Saved Movie</string>
+    <string name="exit">Exit</string>
+    <string name="AddMovie">Add Moive</string>
+    <string name="moviename">Movie Name</string>
+    <string name="movieyear">Movie Year</string>
+    <string name="year_released">Year Release</string>
+    <string name="movie_Genre">Moive Genre</string>
+    <string name="done_movie">Save Movie</string>
+    <string name="et_Search">Search here..</string>
+    <string name="btn_Search">Search Moives</string>
+    <string name="tv_Result">Place Holder for Text</string>
+    <string name="Search_AllMovie">Search Moives</string>
+    <string name="Detail_View"> View Details </string>
+    <string name="mNameTV"> Movie Name </string>
+    <string name="mYear"> Movie Year </string>
+    <string name="mGenre"> Moive Genre </string>
+   <string name="MovieDetails"> Movie Details </string>
+   <string name="saveButton">Save Moive </string>
+   <string name="row_name">Movie Name </string>
+   <string name="row_year">Year </string>
+   <string name="row_genre">Genre</string>
+   <string name="row_plot">Plot </string>
+   <string name="row_director">Director</string>
+   <string name="clear">Clear</string>
+   <string name="mPlot">Plot</string>
+   <string name="mDirector">Director</string>
+   <string name="movie_plot">Plot</string>
+   <string name="movie_Director">Director</string>
+    
+</resources>

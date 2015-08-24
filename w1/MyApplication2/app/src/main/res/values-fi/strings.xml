@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FirstApp in Finnish</string>
+    <string name="hello">Hello, this is the first activity in Finnish</string>
+    <string name="text2">We are learning how to program for Android  in Finnish</string>
+    <string name="textButton">Accept</string>
+    <string name="textButton2">Activity3</string>
+    <string name="textButtonForActivity4">Activity4</string>
+    <string name="hello2">Second activity</string>
+    <string name="activity2">Open activity 2</string>
+    <string name="activity3">You are at 3rd activity</string>
+    <string name="activity4">You are at 4th activity</string>
+    <string name="activity4_1">And this is how you roll</string>
+    <string name="hint1">type text to be displayed in activity 3</string>
+    <string name="hint2">type text to be displayed in activity 4</string>
+    <string name="activity3button">send to activity 3</string>
+    <string name="activity4button">send to activity 4</string>
+    <string name="op1">Option 1</string>
+    <string name="op2">Option 2</string>
+</resources>

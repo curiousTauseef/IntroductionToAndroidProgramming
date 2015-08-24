@@ -27,6 +27,11 @@
 
     </LinearLayout>
 
+    <Button android:id="@+id/activityDBbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activityDBbutton" />
+
     <Button android:id="@+id/activity3button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -52,5 +57,7 @@
         android:hint="@string/hint2"
         android:inputType="text"
         android:imeOptions="actionSend" />
+
+
 
 </LinearLayout>

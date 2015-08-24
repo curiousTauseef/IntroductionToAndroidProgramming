@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <TextView
+	 android:id="@+id/tv_movie_name"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:text="@string/mNameTV"/>
+    
+     <TextView
+	 android:id="@+id/tv_year_released"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:text="@string/mYear"/>
+      
+     <TextView
+	 android:id="@+id/tv_genre"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:text="@string/mGenre"/>
+     
+     <TextView
+	 android:id="@+id/tv_plot"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:text="@string/mPlot"/>
+       
+       
+     <TextView
+	 android:id="@+id/tv_director"
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"
+	 android:text="@string/mDirector"/>
+     
+     
+     <Button
+	android:id="@+id/saveButton"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="50dp"
+	android:text= "@string/saveButton"/>
+     
+</LinearLayout>

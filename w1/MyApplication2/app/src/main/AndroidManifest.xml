@@ -16,9 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity2"></activity>
-        <activity android:name=".Activity3"></activity>
-        <activity android:name=".Activity4"></activity>
+        <activity android:name=".Activity2" />
+        <activity android:name=".Activity3" />
+        <activity android:name=".Activity4" />
+        <activity android:name=".ActivityDB" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" >
+        </activity>
+        <activity
+            android:name=".superActivity"
+            android:label="@string/title_activity_super" >
+        </activity>
     </application>
 
 </manifest>

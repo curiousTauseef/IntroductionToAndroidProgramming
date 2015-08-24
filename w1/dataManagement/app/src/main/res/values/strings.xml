@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">dataManagement</string>
+    <string name="action_settings">Settings</string>
+    <string name="insertButton"> Insert Data </string>
+    <string name="deleteButton"> Delete Data </string>
+    <string name="updateButton"> Update Data </string>
+    <string name="queryButton"> Show Data </string>
+    <string name="deleteHint"> Enter ID </string>
+    <string name="updateHint"> Enter new value </string>
+</resources>
